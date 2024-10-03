@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vasantham Groceries</title>
+  <link rel="stylesheet" href="./vasantham.css">
+  <link rel="stylesheet" href="..//Bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../Bootstrap/bootstrap-5.0.2-dist/js/bootstrap.min.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<!-- <body style=" background-image: url(./banneronline.jpg);"> -->
+
+<body style=" background-color: #e9d288;">
+  <div class="container">
+    <!-- <header class="bg-warning text-danger text-center py-4">
+    <h1 style="font-family: fantasy;">Vasantham Stores</h1>
+    <p>Your one-stop shop for fresh groceries</p>
+  </header> -->
+
+
+    <nav class=" navbar navbar-expand-lg navbar-dark navi">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./VS logo.png" style=" width: 70px; 
+      height: 70px;
+       background-color: rgba(212, 212, 212, 0.404); 
+       border-radius: 20px 3px 20px 3px;" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Big Sale</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Discouts on Sale
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Salary Sale <span
+                      style="color: red; font-size: 12px;">new</span></a></li>
+                <li><a class="dropdown-item" href="#">Daily Savings Sale</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Always Under ₹99</a></li>
+                <li><a class="dropdown-item" href="#"> Under ₹199</a></li>
+
+              </ul>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Upcoming Sales </a>
+            </li>
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0 search-bar">
+            <div class="input-group">
+              <input class="form-control search-input" style=" border-radius: 20px 5px 5px 20px;" type="search"
+                placeholder="Search" aria-label="Search">
+              <div class="input-group-append">
+                <button style="border-radius: 5px 20px 20px 5px;" class="btn search-icon btn-success" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <!-- Banner start -->
+    <div style="box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.486); border-radius: 30px 2PX 30PX 2PX;"
+      id="carouselExampleFade" class="  carousel slide carousel-fade banner" data-bs-ride="carousel">
+      <div class="  carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Banner 1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./banner 2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./banner 3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+    <!-- banner end -->
+    <br>
+
+    <h1
+      style="border-radius: 5px 30px 5px 30px; box-shadow: 0px 0px 50px rgba(153, 94, 27, 0.425) inset; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"
+      class="  text-center bg-light p-2 progress-bar-striped">Welcome To <span
+        style="color: rgb(255, 60, 0); font-size: larger;">Vasantham Stores </span>Online Shopping</h1>
+    <br>
+    <h1>Featured Products</h1>
+    <!-- cards start -->
+    <div style="border-radius: 50px 5px 5px 5px; background-color: rgba(0, 0, 0, 0.452); " class="container p-5 ">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+
+          <div class="card " style="width: 15rem; border-radius: 30px 2px 2px 2px; ">
+            <img src="./asirvad.webp" class="card-img-top p-2" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Asirvad Atta Flour <span style="font-size: 15px;">1KG</span></h5>
+              <p class="card-text">Our Price:₹40/-</p>
+              <p class="card-text">MRP Price:₹80</p>
+              <a href="#" class="btn btn-danger">Buy Now!</a>
+              <a href="#" class="btn btn-warning">Add to cart</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+
+          <div class="card" style="width: 15rem; border-radius: 30px 2px 2px 2px; ">
+            <img src="./maida.webp" class="card-img-top p-2" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fortune Maid <span style="font-size: 15px;">500gm</span></h5>
+              <p class="card-text">Our Price:₹30/-</p>
+              <p class="card-text">MRP Price:₹55</p>
+              <a href="#" class="btn btn-danger">Buy Now!</a>
+              <a href="#" class="btn btn-warning ">Add to cart</a>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center ">
+
+          <div class="card c1" style="width: 15rem; border-radius: 30px 2px 2px 2px;">
+            <img src="./Rice flour.png" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title">Anil Rice flour <span style="font-size: 15px;">500gm</span></h5>
+              <p class="card-text">Our Price:₹20/-</p>
+              <p class="card-text">MRP Price:₹55</p>
+              <a href="#" class="btn btn-danger">Buy Now!</a>
+              <a href="#" class="btn btn-warning">Add to cart</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center  ">
+
+          <div class="card " style="width: 15rem; border-radius: 30px 2px 2px 2px;">
+            <img src="./Elite Rava.webp" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Elite Rava</h5>
+              <p class="card-text">Our Price:₹40/-</p>
+              <p class="card-text">MRP Price:₹80</p>
+              <a href="#" class="btn btn-danger">Buy Now!</a>
+              <a href="#" class="btn btn-warning">Add to cart</a>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div><!-- row -->
+    </div>
+
+    <br>
+
+    <h1>Categories</h1>
+    <div style=" border-radius: 0px; background-color: rgba(70, 70, 70, 0.479);" class="container  p-5 ">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2 d-flex justify-content-center">
+
+          <div class="card color-card" style="width: 15rem; border-radius: 30px 2px 30px 2px;">
+            <img src="./cleaning.png" class="card-img-top p-2" alt="...">
+            <div class="card-body">
+              <h5>Households</h5>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2 d-flex justify-content-center">
+
+          <div class="card color-card" style="width: 15rem; border-radius: 30px 2px 30px 2px; ">
+            <img src="./kitchen tools.png" class="card-img-top p-2" alt="...">
+            <div class="card-body">
+              <h5>Kitchen</h5>
+
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2 d-flex justify-content-center ">
+
+          <div class="card color-card c1" style="width: 15rem; border-radius: 30px 2px 30px 2px;">
+            <img src="./beauty products.png" class=" p-3 card-img-top" alt="...">
+            <div class="card-body ">
+              <h5>Beauty</h5>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2 d-flex justify-content-center  ">
+
+          <div class="card color-card " style="width: 15rem; border-radius: 30px 2px 30px 2px;">
+            <img src="./electronics1.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+              <h5>Electronics</h5>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2 d-flex justify-content-center  ">
+
+          <div class="card color-card " style="width: 15rem; border-radius: 30px 2px 30px 2px;">
+            <img src="./tomato.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+              <H5>Veggies</H5>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2 d-flex justify-content-center  ">
+
+          <div class="card color-card" style="width: 15rem; border-radius: 30px 2px 30px 2px;">
+            <img src="./cooldrinks.png" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+              <h5>Cool Drinks</h5>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- next cards -->
+        <div class="container">
+          <div class="row" style="padding-top: 20px;">
+            <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2 d-flex justify-content-center">
+
+              <div class="card color-card " style="width: 15rem; border-radius: 30px 2px 30px 2px;">
+                <img src="./snacks1.webp" class="card-img-top p-2" alt="...">
+                <div class="card-body">
+                  <h5>Households</h5>
+
+
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2 d-flex justify-content-center">
+
+              <div class="card color-card" style="width: 15rem; border-radius: 30px 2px 30px 2px; ">
+                <img src="./Stanionaries.png" class="card-img-top p-2" alt="...">
+                <div class="card-body">
+                  <h5>Kitchen</h5>
+
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2 d-flex justify-content-center ">
+
+              <div class="card color-card c1" style="width: 15rem; border-radius: 30px 2px 30px 2px;">
+                <img src="./medicines.png" class=" p-3 card-img-top" alt="...">
+                <div class="card-body ">
+                  <h5>Beauty</h5>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2 d-flex justify-content-center  ">
+
+              <div class="card color-card " style="width: 15rem; border-radius: 30px 2px 30px 2px;">
+                <img src="./readyfoods.jpg" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <h5>Ready to</h5>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2 d-flex justify-content-center  ">
+
+              <div class="card color-card " style="width: 15rem; border-radius: 30px 2px 30px 2px;">
+                <img src="./chocolates.png" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <H5>Chocolates</H5>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2 d-flex justify-content-center  ">
+
+              <div class="card color-card " style="width: 15rem; border-radius: 30px 2px 30px 2px;">
+                <img src="./Vector grocery.webp" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <h5>Groceries</h5>
+
+                </div>
+              </div>
+            </div>
+          </div> <!--container -->
+        </div> <!--row -->
+
+      </div><!-- row -->
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- next carousel -->
+
+    <div id="carouselExampleControlsNoTouching" class=" p-5 carousel slide" data-bs-touch="false"
+      data-bs-interval="false">
+      <div style=" box-shadow: 0px 0px 10px black; border-radius: 30px;" class=" carousel-inner">
+        <div class=" carousel-item active">
+          <img src="./last banner.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="last banner2.webp" class="d-block w-100" alt="...">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- Vasantham grocery -->
+    <div class="container">
+
+      <p> &nbsp;&nbsp; VasanthamStores – online grocery store
+        Did you ever imagine that the freshest of fruits and vegetables, top-quality pulses and food grains, dairy
+        products, and hundreds of branded items could be handpicked and delivered to your home, all at the click of a
+        button? In today's fast-paced world, Vasanthamstores.com, India's pioneering online grocery store, continues to
+        bring a staggering array of over 40,000 products from more than 1,000 brands to the doorsteps of over 10 million
+        satisfied customers. From essential household cleaning products to the latest beauty and makeup trends,
+        vasanthamstores remains your one-stop shop for daily needs.</p>
+
+
+      <p>&nbsp;&nbsp;In these times, we've eliminated the stress associated with shopping for daily essentials. You can
+        now effortlessly order all your household products and groceries online. Plus, the added convenience of finding
+        all your requirements at a single source, coupled with substantial savings, demonstrates that vasanthamstores,
+        India's largest online supermarket, has transformed the way we shop for groceries. Online grocery shopping has
+        become second nature. And when it comes to freshness, whether it's fruits and vegetables or dairy and meat,
+        we've got you covered! Easily obtain fresh eggs, meat, fish, and more with just a few clicks.</p>
+
+
+      <p>&nbsp;&nbsp;We now serve 300+ cities and towns across India and ensure swift delivery times, guaranteeing that
+        all your groceries, snacks and branded foods reach you on time.
+
+
+        Slotted Delivery: Choose the most convenient delivery slot to receive your groceries, ranging from early morning
+        delivery for early birds to late-night delivery for those on the night shift. Vasanthamstores caters to every
+        schedule.</p>
+
+
+      <p>&nbsp;&nbsp;Instant delivery from bbnow: In response to the ever-increasing demand for convenience, bbnow by
+        vasanthamstores offers lightning-fast grocery delivery, ensuring that your essentials are at your doorstep
+        within 15-30 minutes. Our quick delivery service has revolutionized the way you shop for groceries. Choose from
+        5000+ grocery essentials. bbnow is available only in select cities.</p>
+
+
+      <p> &nbsp;&nbsp;Whether it's a last-minute dinner party or you simply need something urgently, we've got you
+        covered. This service exemplifies our commitment to providing you with not just the widest range of products but
+        also the fastest and most efficient shopping experience, making vasanthamstores.com the go-to destination for
+        all your immediate grocery needs.</p>
+
+    </div>
+
+
+
+
+
+
+
+  </div> <!--  container -->
+  <!-- <footer>
+<div>
+  <i class="fa-solid fa-address-card"></i>
+  <i class="fa-brands fa-square-instagram"></i>
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-solid fa-phone"></i>
+
+
+
+</div>
+
+</footer> -->
+
+  <footer class="bg-dark-red text-white text-center text-md-left py-4">
+    <div class="container">
+      <div class="row mb-4">
+        <!-- Address -->
+        <div class="col-md-4 mb-3 mb-md-0">
+          <h5 class="text-uppercase">
+            <i class="fas fa-map-marker-alt"></i> Address
+          </h5>
+          <address>
+            123 Your Street,<br>
+            Your City, 12345<br>
+            Your Country
+          </address>
+        </div>
+
+        <!-- Contact Us -->
+        <div class="col-md-4 mb-3 mb-md-0">
+          <h5 class="text-uppercase">
+            <i class="fas fa-phone-alt"></i> Contact Us
+          </h5>
+          <p class="mb-1">
+            Email: <a href="mailto:info@yourcompany.com" class="text-white">info@yourcompany.com</a>
+          </p>
+          <p>
+            Phone: <a href="tel:+1234567890" class="text-white">(123) 456-7890</a>
+          </p>
+        </div>
+
+        <!-- Social Media -->
+        <div class="col-md-4">
+          <h5 class="text-uppercase">Follow Us</h5>
+          <a href="#" class="text-white mx-2">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="text-white mx-2">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="text-white mx-2">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="text-white mx-2">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Feedback Form -->
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <h5 class="text-uppercase">Feedback</h5>
+          <form>
+            <div class="form-group mb-3">
+              <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="form-group mb-3">
+              <textarea class="form-control" rows="3" placeholder="Your Feedback" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success mt-2">Submit</button>
+          </form>
+        </div>
+      </div>
+
+
+      <!-- Footer Bottom -->
+      <div class="mt-4 border-top pt-3">
+        <p class="mb-0">&copy; 2024 Your Company. All rights reserved.</p>
+        <p>
+          <a href="#" class="text-white mx-2">Privacy Policy</a> |
+          <a href="#" class="text-white mx-2">Terms of Service</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+  <script src="../Bootstrap/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <script src="../Bootstrap/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <script src="vasantham.js"></script>
+
+</body>
+
+</html>
